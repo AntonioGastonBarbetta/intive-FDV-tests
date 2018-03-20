@@ -1,0 +1,56 @@
+$background: #E6E6E6;
+$primaryColor: #01A9DB;
+$menssageColor: #E3F6CE;
+
+
+.colorGrey{
+    background-color: $background;
+}
+
+
+.primaryColor{
+    color: $primaryColor;
+}
+
+.country{
+
+    height: 30px;
+    background-color: white;
+}
+
+.inputs{
+    text-align: end;
+}
+
+.borderSet{
+    border: 2px solid $primaryColor;
+}
+
+.tableSet{
+
+    height: 400px;
+    display:table-cell;
+    vertical-align:top;
+}
+
+.nessageSet{
+    background-color: $menssageColor;
+}
+
+.buttonSet{
+    background-color: $background;
+}
+
+
+::placeholder { 
+    color: $primaryColor;
+    opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+    color: $primaryColor;
+}
+
+::-ms-input-placeholder { 
+    color: $primaryColor;
+}
